@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #070707;
+    padding: 15px;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #D1ECF1;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: #005792;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #0099CC;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0077A6;
+}
+.service-card {
+    transition: transform 0.3s ease-in-out;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.service-card h5 {
+    color: #005792;
+}
+
+footer {
+    background-color: #005792;
+    color: white;
+    padding: 15px;
+}
